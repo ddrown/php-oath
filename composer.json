@@ -1,0 +1,14 @@
+{
+  "require":  {
+    "markenwerk/oath-server-suite": "~4.0",
+    "twig/twig": "1.*"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "ddrown\\": "lib/"
+    }
+  }
+}

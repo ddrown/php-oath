@@ -1,0 +1,332 @@
+[
+    {
+        "name": "skleeschulte/base32",
+        "version": "0.0.2",
+        "version_normalized": "0.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/skleeschulte/php-base32.git",
+            "reference": "42b651598d42ca51c00a6e71d2587e64e6e80734"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/skleeschulte/php-base32/zipball/42b651598d42ca51c00a6e71d2587e64e6e80734",
+            "reference": "42b651598d42ca51c00a6e71d2587e64e6e80734",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.0"
+        },
+        "time": "2015-11-19T14:01:26+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SKleeschulte\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Stefan Kleeschulte",
+                "email": "stefan.kleeschulte@smk.biz",
+                "homepage": "http://rays-blog.de",
+                "role": "Developer"
+            }
+        ],
+        "description": "Base32 encoding and decoding class (RFC 4648, RFC 4648 extended hex, Crockford, z-base-32/Zooko).",
+        "homepage": "https://github.com/skleeschulte/php-base32",
+        "keywords": [
+            "base32",
+            "bcmath",
+            "bytestring",
+            "crockford",
+            "decode",
+            "encode",
+            "integer",
+            "rfc4686",
+            "z-base-32",
+            "zooko"
+        ]
+    },
+    {
+        "name": "enygma/yubikey",
+        "version": "3.2",
+        "version_normalized": "3.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/enygma/yubikey.git",
+            "reference": "2a1b38754e94d8fa291f3747b237c492602229e3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/enygma/yubikey/zipball/2a1b38754e94d8fa291f3747b237c492602229e3",
+            "reference": "2a1b38754e94d8fa291f3747b237c492602229e3",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.1"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "dev-master",
+            "phpunit/phpunit": "4.3.2"
+        },
+        "time": "2015-04-20T23:52:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Yubikey": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris Cornutt",
+                "email": "ccornutt@phpdeveloper.org",
+                "homepage": "http://www.phpdeveloper.org/"
+            }
+        ],
+        "description": "PHP library to interface with the Yubikey REST API",
+        "homepage": "https://github.com/enygma/yubikey.git",
+        "keywords": [
+            "api",
+            "rest",
+            "twofactor",
+            "yubico",
+            "yubikey"
+        ]
+    },
+    {
+        "name": "markenwerk/common-exceptions",
+        "version": "3.0.1",
+        "version_normalized": "3.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/markenwerk/php-common-exceptions.git",
+            "reference": "3b96d8a3aaaf80bc4191365ad5569a61b6d4c46d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/markenwerk/php-common-exceptions/zipball/3b96d8a3aaaf80bc4191365ad5569a61b6d4c46d",
+            "reference": "3b96d8a3aaaf80bc4191365ad5569a61b6d4c46d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3"
+        },
+        "time": "2016-07-15T15:13:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Markenwerk\\CommonException\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Martin Brecht-Precht",
+                "email": "mb@markenwerk.net",
+                "homepage": "http://markenwerk.net"
+            }
+        ],
+        "description": "A PHP library providing common exception classes used by different projects.",
+        "homepage": "http://markenwerk.net/",
+        "keywords": [
+            "exceptions"
+        ]
+    },
+    {
+        "name": "markenwerk/qr-code-suite",
+        "version": "4.0.1",
+        "version_normalized": "4.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/markenwerk/php-qr-code-suite.git",
+            "reference": "9811177f666926daa258009699ebd122f8922b88"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/markenwerk/php-qr-code-suite/zipball/9811177f666926daa258009699ebd122f8922b88",
+            "reference": "9811177f666926daa258009699ebd122f8922b88",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "ext-imagick": "*",
+            "markenwerk/common-exceptions": "~3.0",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "dev-master",
+            "phpunit/phpunit": "~4.8"
+        },
+        "time": "2016-07-15T15:33:28+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Markenwerk\\QrCodeSuite\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Martin Brecht-Precht",
+                "email": "mb@markenwerk.net",
+                "homepage": "http://markenwerk.net"
+            },
+            {
+                "name": "Torsten Krause",
+                "email": "tk@markenwerk.net",
+                "homepage": "http://markenwerk.net"
+            }
+        ],
+        "description": "A collection of classes to QR enccode strings and render them as PNG, TIFF and vectorized EPS.",
+        "homepage": "http://markenwerk.net/",
+        "keywords": [
+            "code",
+            "encode",
+            "qr",
+            "quick response"
+        ]
+    },
+    {
+        "name": "markenwerk/oath-server-suite",
+        "version": "4.0.4",
+        "version_normalized": "4.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/markenwerk/php-oath-server-suite.git",
+            "reference": "8069b7833dc0620c379ffc363a0581c7132b5f77"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/markenwerk/php-oath-server-suite/zipball/8069b7833dc0620c379ffc363a0581c7132b5f77",
+            "reference": "8069b7833dc0620c379ffc363a0581c7132b5f77",
+            "shasum": ""
+        },
+        "require": {
+            "enygma/yubikey": "~3.0",
+            "lib-curl": "*",
+            "markenwerk/common-exceptions": "~3.0",
+            "markenwerk/qr-code-suite": "~4.0",
+            "php": ">=5.3",
+            "skleeschulte/base32": "*"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "dev-master",
+            "phpunit/phpunit": ">=4.8.26"
+        },
+        "time": "2017-02-06T13:06:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Markenwerk\\OathServerSuite\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Martin Brecht-Precht",
+                "email": "mb@markenwerk.net",
+                "homepage": "http://markenwerk.net"
+            }
+        ],
+        "description": "A collection of classes to provide second factor authentication like Yubico OTP (Yubikey), Oath (TOTP, HOTP, GoogleAuthenticator) server-side.",
+        "homepage": "http://markenwerk.net/",
+        "keywords": [
+            "google authenticator",
+            "hotp",
+            "oath",
+            "otp",
+            "second factor authentication",
+            "totp",
+            "yubico"
+        ]
+    },
+    {
+        "name": "twig/twig",
+        "version": "v1.34.3",
+        "version_normalized": "1.34.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git",
+            "reference": "451c6f4197e113e24c1c85bc3fc8c2d77adeff2e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/451c6f4197e113e24c1c85bc3fc8c2d77adeff2e",
+            "reference": "451c6f4197e113e24c1c85bc3fc8c2d77adeff2e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/container": "^1.0",
+            "symfony/debug": "~2.7",
+            "symfony/phpunit-bridge": "~3.3@dev"
+        },
+        "time": "2017-06-07T18:45:17+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.34-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            },
+            "psr-4": {
+                "Twig\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
+            },
+            {
+                "name": "Twig Team",
+                "homepage": "http://twig.sensiolabs.org/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "http://twig.sensiolabs.org",
+        "keywords": [
+            "templating"
+        ]
+    }
+]

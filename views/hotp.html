@@ -1,0 +1,7 @@
+Code: {{ output }}<br>
+Counter: {{ counter }}<br>
+Secret url: <a href="{{ url }}">HOTP</a><br>
+<form action=hotp.php method=post>
+New Counter: <input name=counter value="{{ counter + 1 }}">
+<input type=submit>
+</form>
